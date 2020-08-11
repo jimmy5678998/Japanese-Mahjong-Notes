@@ -1,0 +1,16 @@
+body {
+    background-color: powderblue;
+    }
+.container {
+    padding= 16px;
+}
+.categories {
+    text-align: center;
+    word-spacing: 20px;
+}
+.text {
+    font-size: 18px
+}
+.topic {
+    font-size:50px;
+    }
