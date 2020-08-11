@@ -1,4 +1,13 @@
-
+/*.topbar{
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: Azure;
+    padding-bottom: 15px;
+    padding-left: 500px;
+    padding-right: 500px;
+    }
+*/
 .topbar{
     background-image: url("photos/d5y05wf-843cee40-fd8a-4699-9497-b42888f72ccf.jpg");
     background-repeat: no-repeat;
