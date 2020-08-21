@@ -1,0 +1,43 @@
+CSS castading style sheet:(Case sensitive) (n = integer)
+Description:
+tell browser how to display the text and other content that you write in HTML.
+controlling:1)color 2)fonts 3)positioning 4)spacing 5)sizing 6)decorations 7)transitions
+3 main ways to apply CSS styling: 1)apply inline styles directly to HTML 2)place CSS rules within style tags 3(recommanded))write CSS rules in an external style sheet
+It is recommanded to use the third way because it can keep styles seperate from the HTML elements, hence improve readability and reusability of your code.
+The idea behind CSSis that you can use a selector to target an HTML element in the DOM(Document Object Model), and then apply a variety of attributes to that element to change the way it is displayed on the page.
+
+
+<h2 style="color:red;"> = applying style to the html element<h2>, it is like a external module and not compulsory to HTML itself. style= giving the style ability to h2, and color:red; giving color red to the text of h2, end with ;.
+
+That is the inline CSS, styling individual CSS element only. By creating <style></style> block, it is more effective to change the way to decorate element.  The example below is a selector for h2 to show the above skill.
+
+e.g.<style> 
+	h2 {
+	color: red;
+	}
+</style>
+<h2>Hello World</h2>
+
+Also applying classes is useful to use CSS.In HTML, giving class to tag is like <h2 class="Hi">, then replace the above h2 with .Hi as example. Mentioning the term in class must be a single word, adding space causes the selector choose another class after the spacing, which treat as two different classes.
+
+font-size: npx; = controlling the font size of the text
+
+font-family: Family name, generic name; = controlling the font type, you can import the external font if you have linked the font decoration before. Family name is for general font, case sensitive and may need quoting, while generic name is optional and is a fallback font if family name font is not avaliable. It don't need case sensitive and quotes as they are CSS keywords.
+
+width: npx; = controlling the width of the element width(usually images)
+
+border-color/width/style/radius: red/npx/solid/npx or n%; = controlling the attributes of border, border-radius is used to round out the corner of border, style adding different effect to it.
+
+background-color: color: = giving the element's background color
+
+color: #fff; = giving the color to the text, #fff means white
+
+#id{styling} = we can style id attributes using CSS and like classes. But if id and classes have conflict on styling(e.g. different width apply on an element), the style of id would be applied due to higher specificity. 
+
+Difference on typing code of classes and id: class is .class{styling} while id is #id{styling}
+
+margin: npx = increading the distance between its border and surrounding elements
+
+margin-bottom: npx; =
+
+padding: npx; = controls the amount of space between the element's content and its border
