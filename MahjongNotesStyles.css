@@ -22,6 +22,14 @@ body {
     margin-left: -8px;
     margin-right: -8px;
     }
+.breakline{
+    border:none;
+    border-top:1px dotted ;
+    color:#000;
+    background-color:#000;
+    height:1px;
+    width:100%;
+    }
 .container {
     padding: 16px;
     }
@@ -29,7 +37,7 @@ body {
     text-align: center;
     word-spacing: 20px;
     border-style: dotted;
-}
+    }
 .content_list{
     list-style-type: none;
     }
@@ -37,9 +45,9 @@ body {
 .content_list li:before {
   content: '';
   display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-size: 10px;
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
   background-image: url("photos/hm2kqk0dkiv31.png");
   background-repeat: no-repeat;
   margin-left: -15px;
@@ -55,10 +63,19 @@ body {
     font-size: 14px;
     text-indent: 16px
     }
+.content_text{
+    font-size: 24px;
+    text-indent: 16px;
+    }
 
 .topic {
     font-size: 50px;
     margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
+    background-color: white;
+    border: dotted;
+    width: 100%;
+    position: relative;
     }
 .tenhou_photo {
     vertical-align: middle;
