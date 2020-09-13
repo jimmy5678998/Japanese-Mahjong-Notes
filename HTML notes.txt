@@ -65,3 +65,13 @@ id attributes(id="") = building up an id for the element. There are several bene
 2) id attributes should be unique, it is the best to give different id to different elements. But it is fine and browser can still understand and apply even we don't do so.
 
 <span> = incline container to mark up a part of text, without opening a new line.
+
+<strong> = draw attendtion by bolding the font, equals to css of font-weight: bold;
+
+<u> = underlining the words that are important, equals to css of text-decoration: underline;
+
+<em> = italicized the text, equals to css of font-style: italic;
+
+<s> = indicating the text is no longer valid, equals to css of text-decoration: line-through;
+
+<hr> = add a horizontal line across the width of its containing element. Use in defining a change in topic or visually separate groups of content. It is a self-closing tag.

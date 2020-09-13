@@ -1,0 +1,111 @@
+Using cmd as example
+why we should use command line?
+1. It is much faster than GUI
+2. Some programs are GUI excluded, and only manipulated with command lines.
+
+useful website(for this note and deeper research):
+https://www.youtube.com/watch?v=MBBWVgE0ewk&list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu&index=1
+https://riptutorial.com/cmd
+https://shaochien.gitbooks.io/command-line-and-environment-variable-tutorial/content/environment-variable.html
+https://techtipvault.com/windows/command-prompt-windows-10-cmd-guide/
+https://www.makeuseof.com/tag/commands-manage-wireless-networks-windows/
+
+Try to research with command /? for cmd command before type in google.
+
+some tips:
+tab button: autocomplete the word so you don't need to type so many words(by alphabetical order)
+up arrow/ down arrow: to search command history that you have used before
+home button/ end button: to the first/last character of sentence
+. : current directory
+.. : parent directory
+/a : shows all files(including hidden files)
+/s : modifies the treatment of string after /c or /k, meaning copy all subdirectories
+/? : help option for brief review of the command
+* : to choose only some specific files(e.g. dir *.png)
+"": quoating the absolute path
+% : quoating the words to make it variable
++ : adding some attributes to something
+- : deleting some attributes to something
+> : create/ overriding file
+>> : appends file
+---
+command list:
+
+cd = change directory (e.g. cd Desktop\Videos, cd ../..(meaning back to the parent directory and then back one more parent directory))
+
+dir = check all of the folders and files in the directory( e.g dir (Desired path) is going to show the directory of the path without navigating to there.)
+
+cls = clear screen
+
+echo = print some messages, also to set whether giving message feedback or not
+
+copy = copy files(no folders),format is like (copy desiredfile.format destination)
+
+xcopy = copy the files and the folder hierarchies
+
+robocopy = copy the files and the folder hierarchies, will retry when there is error
+
+move = move files to another directory, format is like (move desiredfile destination)
+
+rename = rename files, format is like (rename desiredfile newname)
+
+del = delete files(not for directory)
+
+color = change color of your words and background. type in two digit(e.g.7B) to change, type in color only will reset the setting
+
+mkdir = make directory
+
+rmdir = remove directory
+
+type = read the content of txt file
+
+path = shows all the path that windows have set
+
+attrib =  displays or changes the file attributes for a file or folder
+
+tree = list out all content inside directory in a tree list (Displays directory paths and (optionally) files in each subdirectory.)
+
+set = setup environmental variables, using it singly will cause to print out all environmental variables
+
+fc = file comparision
+
+wmic = an acronym for Windows Management Instrumentation Command. Replaced now and not use commonly anymore
+
+chkdsk = checks a disk and displays a status report
+
+ipconfig = checking ip config of the computer
+
+timeout = stops the program until certain time has pass
+
+pause = pause until click any key to continue
+
+start = open webpage or applications
+
+goto = goto variables state with colon in front(e.g.:start)
+
+exit = exit the cmd program
+---
+examples:
+opening a file in current directory: 
+just type the name of the file following with the format(.xxx)
+
+open file with space:
+use absolute path to open after using path variable
+
+how to call out python:
+type in python; if you want to exit, type exit()
+
+getting drive name:
+type"wmic logicaldisk get name"
+
+change drive:
+type the drive letter with colon (e.g. F:)
+
+why files are hidden:
+developers don't want you to mess with them, so just stay away from the hidden files and hentais
+
+make a txt file with some words(overwriting files):
+echo desiredwordings > name.txt
+
+save command content to txt file(e.g. dir in this case):
+dir > name.txt
